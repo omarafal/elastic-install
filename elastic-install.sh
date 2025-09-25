@@ -3,6 +3,9 @@
 # WOOHOO, you actually opened the script! Anyways, this is an info-stealer. JK :D
 # Or am I.
 
+# first clear everything elastic-related just in-case
+./elastic-purge.sh
+
 KIBANA="/etc/kibana/kibana.yml"
 ELASTIC="/etc/elasticsearch/elasticsearch.yml"
 
