@@ -8,6 +8,7 @@ sudo dpkg --purge kibana
 sudo rm -rf /etc/elasticsearch
 sudo rm -rf /var/lib/elasticsearch
 sudo rm -rf /var/log/elasticsearch
+sudo rm -rf /opt/Elastic
 
 sudo rm -rf /etc/kibana
 sudo rm -rf /var/lib/kibana
