@@ -11,8 +11,8 @@ ELASTIC="/etc/elasticsearch/elasticsearch.yml"
 
 mkdir pckgs
 mkdir creds
-wget -P ./pkgs https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.16.6-amd64.deb
-wget -P ./pkgs https://artifacts.elastic.co/downloads/kibana/kibana-8.16.6-amd64.deb
+wget -P ./pckgs https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.16.6-amd64.deb
+wget -P ./pckgs https://artifacts.elastic.co/downloads/kibana/kibana-8.16.6-amd64.deb
 
 echo "Installing elastic"
 sudo dpkg -i ./pkgs/elasticsearch-8.16.6-amd64.deb
