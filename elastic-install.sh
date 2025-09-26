@@ -48,6 +48,7 @@ while true; do
     code=$(sudo systemctl status kibana 2>&1 | grep -oP 'code=\K[0-9]+')
     if [[ -n "$code" ]]; then
         echo -e "\nKibana is ready! Code = $code"
+	echo "$code" > ./creds/kibana.code
         break
     fi
     sleep 2

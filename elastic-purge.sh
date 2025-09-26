@@ -9,6 +9,7 @@ sudo rm -rf /etc/elasticsearch
 sudo rm -rf /var/lib/elasticsearch
 sudo rm -rf /var/log/elasticsearch
 sudo rm -rf /opt/Elastic
+sudo rm /etc/systemd/system/elastic-agent.service
 
 sudo rm -rf /etc/kibana
 sudo rm -rf /var/lib/kibana
