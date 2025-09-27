@@ -15,10 +15,10 @@ wget -P ./pckgs https://artifacts.elastic.co/downloads/elasticsearch/elasticsear
 wget -P ./pckgs https://artifacts.elastic.co/downloads/kibana/kibana-8.16.6-amd64.deb
 
 echo "Installing elastic"
-sudo dpkg -i ./pkgs/elasticsearch-8.16.6-amd64.deb
+sudo dpkg -i ./pckgs/elasticsearch-8.16.6-amd64.deb
 echo "Elastic installed"
 echo "Installing kibana"
-sudo dpkg -i ./pkgs/kibana-8.16.6-amd64.deb
+sudo dpkg -i ./pckgs/kibana-8.16.6-amd64.deb
 echo "Kibana installed"
 
 # backup config files
